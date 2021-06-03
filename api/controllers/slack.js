@@ -22,7 +22,6 @@ function action(req, res) {
         pollService.tallyVote(payload.response_url, payload.channel.name, payload.user.username, payload.actions[0]);
     }
     else if (action.block_id == "options" && action.action_id == "submit") {
-
         const truth1 = payload.state.values.block1.action1.value;
         const truth2 = payload.state.values.block2.action2.value;
         const lie = payload.state.values.block3.action3.value;
@@ -35,7 +34,6 @@ function action(req, res) {
 }
 
 module.exports = {
-    checkPolls: checkPolls,
     createPoll: createPoll,
     action: action
 };

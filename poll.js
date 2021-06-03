@@ -1,4 +1,4 @@
-const pollMessageTemplate = require("./messages/poll.json");
+const pollMessageTemplate = require("./messages/poll.json"); // TODO: combine require for messages
 const optionsMessage = require("./messages/options.json");
 const axios = require("axios");
 
