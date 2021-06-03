@@ -10,30 +10,31 @@
 		},
 		{
 			"type": "actions",
+			"block_id": "vote",
 			"elements": [
 				{
+					"action_id": "a",
 					"type": "button",
 					"text": {
 						"type": "plain_text",
 						"text": "Option A"
-					},
-					"value": "a"
+					}
 				},
 				{
+					"action_id": "b",
 					"type": "button",
 					"text": {
 						"type": "plain_text",
 						"text": "Option B"
-					},
-					"value": "b"
+					}
 				},
 				{
+					"action_id": "c",
 					"type": "button",
 					"text": {
 						"type": "plain_text",
 						"text": "Option C"
-					},
-					"value": "c"
+					}
 				}
 			]
 		},
