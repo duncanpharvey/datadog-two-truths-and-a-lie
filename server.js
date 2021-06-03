@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/", verification.slackSignature);
 
-const routes = require("./api/routes/test");
+const routes = require("./api/routes/slack");
 routes(app);
 
 app.use(function (req, res) {
