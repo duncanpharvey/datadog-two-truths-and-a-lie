@@ -5,6 +5,8 @@ const pollService = require("../../poll.js");
 
 // TODO: how to reset?
 
+// TODO: add leaderboard slash command?
+
 // initiated by slash command /createpoll
 function createPoll(req, res) {
     const result = checkPolls(req.body.channel_name);
